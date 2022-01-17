@@ -33,7 +33,7 @@ header {
 
 .nav-link {
   display: flex;
-  flex-direction: rew;
+  flex-direction: row;
   margin-left: 10px;
   margin-right: 10px;
   float: right;
@@ -55,6 +55,9 @@ h2 {
 
 iframe {
   margin: auto;
+  height:400px;
+   width:600px;
+   border:none;
 }
 
 .second-header {
@@ -111,10 +114,11 @@ iframe {
 
 @media screen and (min-width: 480px) {
   #leftsidebar {
-      width: 200px;
-      float: left;
+    width: 200px;
+    float: left;
   }
+
   #main {
-      margin-left: 216px;
+    margin-left: 216px;
   }
 }
